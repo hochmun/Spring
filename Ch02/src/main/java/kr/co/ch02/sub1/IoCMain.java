@@ -36,6 +36,6 @@ public class IoCMain {
 		stv.soundDown();
 		*/
 		
-		ctx.getBean("ltv", LgTV.class).powerOn();
+		ctx.getBean("ltv", LgTV.class).soundUp();
 	}
 }
